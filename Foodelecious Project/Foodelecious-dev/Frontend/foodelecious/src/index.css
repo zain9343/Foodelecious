@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navv{
+  font-family: 'Comforter', cursive;
+  font-family: 'Ms Madi', cursive;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Updock', cursive;
+  
+
+
+}
+.font{
+
+  font-family: 'Comforter', cursive;
+  font-family: 'Ms Madi', cursive;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Updock', cursive;
+  
+}
+.blogForm{
+
+margin-top:10% ;
+
+
+}
+
+.edit{
+  cursor: pointer;
+}
+
+.editDelete:hover{
+
+  color:red
+
+}
+
+.editUpdate:hover{
+
+  color:green
+
+}
+
+#email{
+  background-color: rgba(0, 0, 0, 0.249);
+  color: white;
+}
+#modall{
+
+  background-color: rgba(0, 0, 0, 0.762);
+  color: white;
+
+}
+
+#e-adress,#e-name{
+  color: white;
+}
+
+#password,#name,#title,#description{
+  background-color: rgba(0, 0, 0, 0.249);
+  color: white;
+}
+
+
+
+#pwd{
+
+  color: white;
+
+
+}
+
+
+
+#navgbar{
+  background-color: rgba(0, 0, 0, 0.16);
+  border-bottom: 1px solid #227aff4b ;
+}
+
+#nav-login,#nav-signup,#nav-logout,#recepsearch,#upload,#logbtn,#update,#signupp{
+
+  background-color: #227aff67;
+
+
+}
+
+#cardd{
+  background-color: rgba(0, 0, 0, 0.468);
+  color: white;
+}
+
+#add{
+
+  font-family: 'Comforter', cursive;
+  font-family: 'Ms Madi', cursive;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Updock', cursive;
+  font-size: xxx-large;
+  color: white;
+
+}

@@ -1,0 +1,22 @@
+{
+  "name": "foof",
+  "version": "1.0.0",
+  "description": "a website to store food blogs",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon Backend/app.js",
+    "client": "npm start --prefix Frontend/foodelecious",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^7.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.0",
+    "react-scripts": "^5.0.1"
+  }
+}
